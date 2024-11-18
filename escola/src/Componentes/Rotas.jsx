@@ -12,7 +12,7 @@ export default function Rota(){
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/cadastro" element={<Cadastro />} />
                     <Route path="/consulta" element={<Consulta />} />
                     <Route path="/alteracao/:codigo" element={<Alteracao />} />
