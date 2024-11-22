@@ -17,8 +17,7 @@ export default function Rota(){
                     <Route path="/consulta" element={<Consulta />} />
                     <Route path="/alteracao/:codigo" element={<Alteracao />} />
                     <Route path="/exclusao/:codigo" element={<Exclusao />} />
-                    <Route path="*" element={<erro />} />
-
+                    <Route path="*" element={<Erro />} />
                 </Routes>
             </BrowserRouter>
         </div>
